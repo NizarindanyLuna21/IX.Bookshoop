@@ -1,0 +1,62 @@
+:root {
+    --FuenteTitulos: "PT Sans", sans-serif;
+    --FuenteParrafos: "Open Sans", sans-serif;
+
+    --primary: #5B4B8A;
+    --secondary: #E9E7F3;
+    --coral: #FF6F61;
+    --white: #FFF;
+    --mainText: #2E2A3B;
+}
+html {
+    box-sizing: border-box;     /* El ancho y alto incluyen el contenido, padding y borde. */
+    font-size: 62.5%;   /* 10px = 1rem*/
+}
+*,*::before,*::after {
+    box-sizing: inherit;    /*Hace que el elemento herede el modo de cálculo de tamaño de su padre*/
+}
+/* Globales */
+body {
+    font-family: var(--FuenteParrafos);
+    font-size: 1.6rem;
+    line-height: 2;
+}
+.container {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: var(--negro);
+}
+h1,h2,h3 {
+    font-family: var(--FuenteTitulos);
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2.4rem;
+}
+h3 {
+    font-size: 1.8rem;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+/* Utilities */
+.text-center {
+    text-align: center;
+}
+.lighter {
+    font-weight: lighter;
+}
+.pointer {
+    cursor: pointer;
+}
+
+
+
+
